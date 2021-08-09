@@ -1,0 +1,39 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.fab {
+    width: 8vh;
+    height: 8vh;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 6px 10px 0 #666;
+    transition: all 0.5s ease-in-out;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height: 70px;
+    vertical-align: center;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    z-index: 99999;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.label {
+    margin-top: 10px;
+}
